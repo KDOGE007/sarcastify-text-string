@@ -1,0 +1,4 @@
+This is a quick project that manipulate the input string by alternating their casing.
+
+I made this to gain a basic understanding of DOM manipulation while trying to make something that I could see myself using in the future.
+  
