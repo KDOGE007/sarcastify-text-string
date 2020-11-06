@@ -10,7 +10,7 @@ const sarcasticCasing = (input) => {
 }
 
 const copyToClipboard = (str) => {
-  let copyStr = document.createElement('textarea') //create variable tht will creat text area
+  let copyStr = document.createElement('textarea') //create variable tht will create text area
   copyStr.value = str
   document.body.appendChild(copyStr)
   copyStr.select() //select function can only select from the input or textarea hence the need to create textarea
