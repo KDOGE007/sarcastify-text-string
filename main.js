@@ -1,4 +1,4 @@
-const sarcasticCasing = (input) => {
+const satireCasing = (input) => {
   const output = input
     .trim()
     .split('')
@@ -13,15 +13,15 @@ const copyToClipboard = (str) => {
   let copyStr = document.createElement('textarea') //create variable tht will create text area
   copyStr.value = str
   document.body.appendChild(copyStr)
-  copyStr.select() //select function can only select from the input or textarea hence the need to create textarea
+  copyStr.select() //select function can only select from the input or textarea hence the need to create a textarea
   document.execCommand('copy') //copy to clipboard
   document.body.removeChild(copyStr)
   alert(`Copied the text: ${str}`)
 }
 
-document.querySelector('#sarcastic').addEventListener('click', () => {
+document.querySelector('#satire').addEventListener('click', () => {
   const text = document.querySelector('#myTextarea').value
-  sarcasticCasing(text)
+  satireCasing(text)
 })
 
 document
