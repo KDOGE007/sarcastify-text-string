@@ -1,5 +1,6 @@
 const sarcasticCasing = (input) => {
   const output = input
+    .trim()
     .split('')
     .map((letter, i) =>
       i % 2 == 0 ? letter.toUpperCase() : letter.toLowerCase()
