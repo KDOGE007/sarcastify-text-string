@@ -1,4 +1,6 @@
 This is a quick project that manipulate the input string by alternating their casing.
 
 I made this to gain a basic understanding of DOM manipulation while trying to make something that I could see myself using in the future.
+
+The user input a string and it will return the same string that alternate between a uppercase and lowercase. They can also copy the result in to the clipboard to paste it elsewhere.
   
